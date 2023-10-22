@@ -7,8 +7,13 @@
     <link href="/dist/output.css" rel="stylesheet" />
 </head>
 <body>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
     <!-- header start -->
-    <section class="pt-[50px]">
+    <section class="pt-[30px]">
         <div class="max-w-[1240px] flex items-center justify-between mx-auto pl-[20px] pr-[20px]">
             <a href="../src/index.html" class="mr-[60px]">
                 <img src="../img/headerlogo.svg" alt="header logo" class="flex">
@@ -73,7 +78,7 @@
                     Ищите и находите подходящую работу среди <span class="text-[#1DBF73]">10,000+</span> проектов и покажите на что Вы способны!
                 </h1> 
                 <form class="w-[645px] flex justify-between rounded-[50px] bg-[#F2F0FE] mx-auto mb-[50px]">
-                    <input type="text" class="bg-[#F2F0FE] rounded-[50px] w-[645px] pt-[20px] pl-[20px] pb-[20px]" placeholder="Какую работу ищете?">
+                    <input type="text" class="outline-none bg-[#F2F0FE] rounded-[50px] w-[645px] pt-[20px] pl-[20px] pb-[20px]" placeholder="Какую работу ищете?">
                     <button class="text-[#F6FAFD] rounded-[50px] bg-[#FBA457] text-[16px] font-bold leading-normal pt-[20px] pb-[20px] pl-[50px] pr-[50px]">
                         Найти
                     </button>
@@ -128,7 +133,7 @@
                     <h2 class="text-[#222] text-center text-[24px] font-semibold leading-normal">
                         Ниже все заказы по <span class="text-[#1DBF73]">дизайну</span>
                     </h2>
-                    <a href="#" class="">
+                    <a href="#project" class="">
                         <img src="../img/heropast.png" alt="hero img" class="flex mx-auto">
                     </a>
                 </div>
@@ -136,7 +141,7 @@
         </section>
         <!-- hero end -->
         <!-- proyect start -->
-        <section class="pt-[60px] pb-[60px]">
+        <section id="project" class="pt-[60px] pb-[60px]">
             <div class="max-w-[1240px] mx-auto pl-[20px] pr-[20px]">
                 <div class="flex items-center justify-between mb-[33px]">
                     <h2 class="text-[#222] text-[24px] font-semibold leading-normal">
