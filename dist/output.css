@@ -599,10 +599,6 @@ video {
   display: grid;
 }
 
-.h-\[24px\] {
-  height: 24px;
-}
-
 .w-\[200px\] {
   width: 200px;
 }
@@ -641,14 +637,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[24px\] {
-  width: 24px;
-}
-
-.w-\[240px\] {
-  width: 240px;
 }
 
 .max-w-\[1240px\] {
@@ -1036,10 +1024,6 @@ video {
 
 .text-\[36px\] {
   font-size: 36px;
-}
-
-.text-\[240px\] {
-  font-size: 240px;
 }
 
 .font-bold {
