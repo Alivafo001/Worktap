@@ -731,6 +731,10 @@ video {
   gap: 61px;
 }
 
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
 .rounded-\[100px\] {
   border-radius: 100px;
 }
