@@ -18,7 +18,7 @@
         <a href="../src/index.html" class="">
           <img src="../img/headerlogo.svg" alt="header logo" class="flex" />
         </a>
-        <nav class="">
+        <nav class="md:block hidden">
           <ul class="flex gap-10">
             <li class="">
               <a href="../src/birja.html" class="font-sans text-[16px] font-normal loading-normal">
@@ -47,7 +47,7 @@
             </li>
           </ul>
         </nav>
-        <div class="flex gap-[30px] items-center">
+        <div class="md:flex gap-[30px] items-center hidden">
           <a href="#" class="bg-[#F2F0FE] text-[16px] font-normal leading-normal text-[#1DBF73] pt-[10px] pb-[10px] pl-[30px] pr-[30px] rounded-[50px]">
             Регистрация
           </a>
@@ -55,6 +55,9 @@
             Войти
           </a>
         </div>
+        <button class="md:hidden block">
+          (*=*)
+        </button>
       </div>
     </section>
     <!-- header end -->
