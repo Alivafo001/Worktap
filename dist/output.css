@@ -591,6 +591,10 @@ video {
   margin-top: 91px;
 }
 
+.mb-\[\] {
+  margin-bottom: ;
+}
+
 .block {
   display: block;
 }
@@ -745,6 +749,10 @@ video {
 
 .gap-\[61px\] {
   gap: 61px;
+}
+
+.gap-\[30\] {
+  gap: 30;
 }
 
 .scroll-smooth {
@@ -1129,6 +1137,10 @@ video {
     margin-right: auto;
   }
 
+  .md\:mb-\[33px\] {
+    margin-bottom: 33px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -1159,6 +1171,10 @@ video {
 
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:gap-0 {
+    gap: 0px;
   }
 
   .md\:pb-\[159px\] {
