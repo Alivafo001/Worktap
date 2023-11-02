@@ -1149,8 +1149,20 @@ video {
     width: 532px;
   }
 
+  .md\:w-\[950px\] {
+    width: 950px;
+  }
+
+  .md\:w-\[645px\] {
+    width: 645px;
+  }
+
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:pb-\[159px\] {
+    padding-bottom: 159px;
   }
 
   .md\:text-left {
