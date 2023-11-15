@@ -47,6 +47,7 @@
             </li>
           </ul>
         </nav>
+        
         <div class="md:flex gap-[30px] items-center hidden">
           <a href="#" class="bg-[#F2F0FE] text-[16px] font-normal leading-normal text-[#1DBF73] pt-[10px] pb-[10px] pl-[30px] pr-[30px] rounded-[50px] hover:bg-[#1DBF73] hover:text-white">
             Регистрация
@@ -55,11 +56,47 @@
             Войти
           </a>
         </div>
-        <button class="md:hidden block">
+        <button id="btn" class="md:hidden block">
           (*=*)
         </button>
+
+        <div id="nav" class="bg-white w-full h-screen  fixed top-0 left-full">
+          <nav class="md:hidden block">
+            <button id="x" class="mb-[20px]">
+              X
+            </button>
+            <ul class="flex flex-col gap-[15px]">
+              <li class="">
+                <a href="../src/birja.html" class="font-sans text-[16px] font-normal loading-normal">
+                  Биржа
+                </a>
+              </li>
+              <li class="">
+                <a href="../src/birja.html" class="font-sans text-[16px] font-normal loading-normal">
+                  Ворки
+                </a>
+              </li>
+              <li class="">
+                <a href="../src/birja.html" class="font-sans text-[16px] font-normal loading-normal">
+                  Конкурсы
+                </a>
+              </li>
+              <li class="">
+                <a href="../src/birja.html" class="font-sans text-[16px] font-normal loading-normal">
+                  Создать ворк
+                </a>
+              </li>
+              <li class="">
+                <a href="../src/birja.html" class="font-sans text-[16px] font-normal loading-normal">
+                  Создать заказ
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </section>
+
     <!-- header end -->
     <!-- main start -->
     <main>
@@ -601,7 +638,7 @@
       </section>
       <!-- work tap end -->
       <!-- biznes start -->
-      <section style="background-image: url(../img/biznesbanner.png); background-position: calc(50% + 300px) 0;" class="bg-no-repeat bg-[#E6A901]">
+      <section style="background-image: url(../img/biznesbanner.png); background-position: calc(50% + 300px) 0;" class="bg-no-repeat bg-[#E6A901] w-full">
         <div class="max-w-[1240px] mx-auto pr-[20px] pl-[20px] pt-[50px] pb-[97px]">
           <h2
             class="md:text-left text-center text-[#F6FAFD] text-[24px] font-semibold leading-normal mb-[45px]"
@@ -610,7 +647,7 @@
           </h2>
           <div class="flex flex-col gap-[30px] mb-[50px]">
             <div
-              class="w-[430px]  flex gap-[30px] items-center bg-[#F6FAFD] rounded-[20px] pt-[20px] pb-[20px] pl-[20px] md:mx-0 mx-auto"
+              class="md:w-[430px] w-full flex gap-[30px] items-center bg-[#F6FAFD] rounded-[20px] pt-[20px] pb-[20px] pl-[20px] md:mx-0 mx-auto"
             >
               <img src="../img/bizneslogo.svg" alt="logo" class="flex" />
               <p class="text-[#222] text-[14px] font-normal leading-normal">
@@ -618,7 +655,7 @@
               </p>
             </div>
             <div
-              class="w-[430px] flex gap-[30px] items-center bg-[#F6FAFD] rounded-[20px] pt-[20px] pb-[20px] pl-[20px] md:mx-0 mx-auto"
+              class="md:w-[430px] w-full flex gap-[30px] items-center bg-[#F6FAFD] rounded-[20px] pt-[20px] pb-[20px] pl-[20px] md:mx-0 mx-auto"
             >
               <img src="../img/biznestwo.svg" alt="logo" class="flex" />
               <p class="text-[#222] text-[14px] font-normal leading-normal">
@@ -626,7 +663,7 @@
               </p>
             </div>
             <div
-              class="w-[430px] flex gap-[30px] items-center bg-[#F6FAFD] rounded-[20px] pt-[20px] pb-[20px] pl-[20px] md:mx-0 mx-auto"
+              class="md:w-[430px] w-full flex gap-[30px] items-center bg-[#F6FAFD] rounded-[20px] pt-[20px] pb-[20px] pl-[20px] md:mx-0 mx-auto"
             >
               <img src="../img/biznesthree.svg" alt="logo" class="flex" />
               <p class="text-[#222] text-[14px] font-normal leading-normal">
@@ -869,5 +906,6 @@
       </div>
     </footer>
     <!-- footer end -->
+    <script src="../src/app.js"></script>
   </body>
 </html>
