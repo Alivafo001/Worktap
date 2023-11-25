@@ -8,6 +8,12 @@
 </head>
 <body>
   <style>
+     a:hover{
+        opacity: .8;
+      }
+      a:active{
+        opacity: .6;
+      }
     html{
         scroll-behavior: smooth;
     }
@@ -26,17 +32,17 @@
                         </a>
                     </li>
                     <li class="">
-                        <a href="#" class="text-[#000] text-[16px] font-medium leading-normal">
+                        <a href="#workprofile" class="text-[#000] text-[16px] font-medium leading-normal">
                             Ворки
                         </a>
                     </li>
                     <li class="">
-                        <a href="#" class="text-[#000] text-[16px] font-medium leading-normal">
+                        <a href="#heroprofile" class="text-[#000] text-[16px] font-medium leading-normal">
                             Конкурсы
                         </a>
                     </li>
                     <li class="">
-                        <a href="#" class="text-[#000] text-[16px] font-medium leading-normal">
+                        <a href="#footerprofile" class="text-[#000] text-[16px] font-medium leading-normal">
                             Создать заказ
                         </a>
                     </li>
@@ -59,15 +65,9 @@
                         Ернар Ибрагимов
                     </p>
                     <a href="../src/profil.html" class="">
-                    <img src="../img/headerprofile.png" width="80" height="80" alt="header profile" class="flex">
+                    <img src="../img/headerpast.png"  alt="header profile" class="flex">
                     </a>
-                    <select name="" id="" class="outline-none">
-                      <option value="salom"></option>
-                      <option value="salom">a</option>
-                      <option value="salom">a</option>
-                      <option value="salom">a</option>
-                      <option value="salom">a</option>
-                  </select>
+                    
                 </div>
             </div>
             <button id="btn" class="md:hidden block">
@@ -133,7 +133,7 @@
     <!-- main start -->
     <main>
         <!-- hero start -->
-      <section class="md:pt-[37px]  md:pb-[212px] pb-[100px] pt-[60px]">
+      <section id="heroprofile" class="md:pt-[37px]  md:pb-[212px] pb-[100px] pt-[60px]">
         <div
           class="max-w-[1240px] md:flex block items-center gap-[154px] justify-between mx-auto pr-[20px] pl-[20px]"
         >
@@ -225,7 +225,7 @@
       </section>
       <!-- hero end -->
       <!-- my work start -->
-      <section class="pt-[60px] md:pb-[60px] pb-[80px]">
+      <section id="workprofile" class="pt-[60px] md:pb-[60px] pb-[80px]">
         <div class="max-w-[1240px] mx-auto pl-[20px] pr-[20px]">
             <h2 class="text-[#000] text-[24px] font-semibold leading-normal md:mb-[40px] mb-[60px]">
                 Мой ворки
@@ -518,7 +518,7 @@
     </main>
     <!-- main end -->
     <!-- footer start -->
-    <footer class="bg-[#F2F0FE] pt-[50px] pb-[100px]">
+    <footer id="footerprofile" class="bg-[#F2F0FE] pt-[50px] pb-[100px]">
       <div class="max-w-[1240px] mx-auto pr-[20px] pl-[20px]">
         <div class="md:flex block justify-between mb-[50px]">
           <div class="md:mb-0 mb-[50px] md:text-left text-center">

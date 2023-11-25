@@ -54,12 +54,4 @@ cardComment.forEach(element => {
     })
 });
 
-// more.addEventListener('click' , function(){
-//     cardOne.classList.remove("hidden")
-// })
 // card end
-
-// more start
-
-
-// more end

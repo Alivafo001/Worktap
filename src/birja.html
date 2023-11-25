@@ -7,6 +7,17 @@
     <link href="/dist/output.css" rel="stylesheet" />
 </head>
 <body>
+  <style>
+    html{
+      scroll-behavior: smooth;
+    }
+    a:hover{
+        opacity: .8;
+      }
+      a:active{
+        opacity: .6;
+      }
+  </style>
     <!-- header start -->
     <section class="pt-[30px]">
         <div class="max-w-[1240px] flex items-center justify-between mx-auto pl-[20px] pr-[20px]">
@@ -21,17 +32,17 @@
                         </a>
                     </li>
                     <li class="">
-                        <a href="#" class="text-[#000] text-[16px] font-medium leading-normal">
+                        <a href="#project" class="text-[#000] text-[16px] font-medium leading-normal">
                             Ворки
                         </a>
                     </li>
                     <li class="">
-                        <a href="#" class="text-[#000] text-[16px] font-medium leading-normal">
+                        <a href="#hero" class="text-[#000] text-[16px] font-medium leading-normal">
                             Конкурсы
                         </a>
                     </li>
                     <li class="">
-                        <a href="#" class="text-[#000] text-[16px] font-medium leading-normal">
+                        <a href="#footerbirja" class="text-[#000] text-[16px] font-medium leading-normal">
                             Создать заказ
                         </a>
                     </li>
@@ -56,13 +67,9 @@
                     <a href="../src/profil.html" class="">
                     <img src="../img/headerprofile.png" width="80" height="80" alt="header profile" class="flex">
                     </a>
-                    <select name="" id="" class="outline-none">
-                        <option value="salom"></option>
-                        <option value="salom">a</option>
-                        <option value="salom">a</option>
-                        <option value="salom">a</option>
-                        <option value="salom">a</option>
-                    </select>
+                    <a href="" class="">
+                      <img src="../img/headerpast.png" alt="past">
+                    </a>
                 </div>
             </div>
             <button id="btn" class="md:hidden block">
@@ -128,7 +135,7 @@
     <!-- main start -->
     <main>
         <!-- hero start -->
-        <section class="pt-[160px] md:pb-[159px] pb-[100px]">
+        <section id="hero" class="pt-[160px] md:pb-[159px] pb-[100px]">
             <div class="max-w-[1240px] mx-auto pl-[20px] pr-[20px]">
                 <h1 class="md:w-[950px] w-full text-[#222] text-center text-[36px] font-bold leading-normal mx-auto mb-[60px]">
                     Ищите и находите подходящую работу среди <span class="text-[#1DBF73]">10,000+</span> проектов и покажите на что Вы способны!
@@ -570,7 +577,7 @@
     </main>
     <!-- main end -->
     <!-- footer start -->
-    <footer class="bg-[#F2F0FE] pt-[50px] pb-[100px]">
+    <footer id="footerbirja" class="bg-[#F2F0FE] pt-[50px] pb-[100px]">
       <div class="max-w-[1240px] mx-auto pr-[20px] pl-[20px]">
         <div class="md:flex block justify-between mb-[50px]">
           <div class="md:mb-0 mb-[50px] md:text-left text-center">
